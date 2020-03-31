@@ -7,7 +7,7 @@
 }
 
 .leftside{
-        background-color: red;
+        background-color: white;
         width: 10%;
         float: left;
         height: 1000px;
@@ -18,10 +18,11 @@
         width: 80%;
         float: left;
         height: 1000px;
+
 }
 
 .rightside{
-        background-color: red;
+        background-color: white;
         width: 10%;
         float: left;
         height: 1000px;
@@ -39,13 +40,43 @@
     display: inline;
     padding: 5px 100px 5px;
     background-color: white;
-    position: relative;
-    top:0;
     font-family:Arial, serif;
     font-size: 15px;
+    border: solid 1px;
 }
 
 .menu>li>a{
     text-decoration: none;
     color: #fff;
+}
+
+.peles {
+    display: inline;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.klaviaturas{
+    display: inline;
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+.austinas{
+    display: inline;
+    position: relative;
+    top: 150px;
+    left: 200px;
+}
+.palktni{
+    display: inline;
+    position: relative;
+    top: 150px;
+    left: 250px;
+}
+.aksesuari{
+    display: inline;
+    position: relative;
+    top: 150px;
+    left: 300px;
 }

@@ -1,0 +1,50 @@
+.mainbox{
+    background-color: white;
+    width: 100%;
+}
+.menu{
+    background-color: white;
+}
+
+.leftside{
+    background-color: white;
+    width: 10%;
+    float: left;
+    height: 1000px;
+}
+
+.main{
+    background-color: white;
+    width: 80%;
+    float: left;
+    height: 1000px;
+}
+
+.rightside{
+    background-color: white;
+    width: 10%;
+    float: left;
+    height: 1000px;
+}
+
+.footer{
+    background-color: darkgray;
+}
+.menu{
+    height: 150px;
+    text-align: center;
+}
+
+.menu>ul>li{
+    display: inline;
+    padding: 5px 100px 5px;
+    border: solid 1px;
+    background-color: white;
+    font-family:Arial, serif;
+    font-size: 15px;
+}
+
+.menu>li>a{
+    text-decoration: none;
+    color: #fff;
+}
